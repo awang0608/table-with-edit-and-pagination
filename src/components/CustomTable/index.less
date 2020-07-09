@@ -1,0 +1,22 @@
+.customTable {
+  margin: 10px;
+  &BtnArea {
+    margin: 10px 0;
+    text-align: right;
+  }
+  .toolBar {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    &.noRight {
+      flex-direction: inherit;
+    }
+  }
+  .btn {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+}
